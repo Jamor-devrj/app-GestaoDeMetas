@@ -1,48 +1,18 @@
-// olá, mundo!
-console.log("olá, mundo!")
+const start = () => {
 
-
-// variáveis - let
-let mensagens = "olá, mundo!"
-
-
-// variáveis - const
-const mensagem = "olá, eu"
-{
-    const mensagem = "olá, Mayk!"
-    console.log(mensagem)
-}
-console.log(mensagem);
-
-
-// arrays
-let metas = ['mayk', 'alô']
-let metas01 = [2, 'mayk']
-// concatenando valores
-console.log(metas[1] + ", " + metas[0]) 
-
-let metas02 = [
-    metas,
-    {
-        value: 'caminhar 20 minutos todos os dias',
-        checked: false
-    }
-]
-console.log(metas02[1].value);
-
-// objetos
-let meta = {
-    value: 'ler um livro por mês',
-    address: 2,
-    checked: true,
-    isChecked: () => {
-        console.log(info)
+    while(true){
+        let opcao = "cadastrar" 
+        switch(opcao){
+            case "cadastrar":
+                console.log("vamos cadastrar")
+                break
+            case "listar":
+                console.log("vamos listar")
+                break
+            case "sair":
+                return
+        }
     }
 }
-console.log(meta.value);
 
-// function // arrow function
-const criarMeta = () => {}
-
-// named function
-function criarMetas() {}
+start()
