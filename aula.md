@@ -59,3 +59,22 @@ Apresentar os dados
 
 - [x] while
 - [x] switch
+
+## Módulos em Node.js:
+
+- [x] Importação de módulos (require, CommonJS)
+- [x] Biblioteca 'inquirer para criar prompts interativos'
+
+        const  { select } = require('@inquirer/prompts')
+
+## Programaão assíncrona e Promises:
+
+- [x] Uso de funções assíncronas (async/await)
+
+        const start = async () => {  
+
+        while(true){
+            const opcao = await select({        
+        ...
+
+##
