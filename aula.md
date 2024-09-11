@@ -58,3 +58,4 @@ Apresentar os dados
 # Estrutura de repetição
 
 - [x] while
+- [x] switch
