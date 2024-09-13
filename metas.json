@@ -1,0 +1,14 @@
+[
+  {
+    "value": "comer",
+    "checked": true
+  },
+  {
+    "value": "rezar",
+    "checked": false
+  },
+  {
+    "value": "amar",
+    "checked": false
+  }
+]
