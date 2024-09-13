@@ -1,14 +1,14 @@
 [
   {
-    "value": "comer",
+    "value": "Estudar",
     "checked": true
   },
   {
-    "value": "rezar",
-    "checked": false
+    "value": "Trabalhar",
+    "checked": true
   },
   {
-    "value": "amar",
-    "checked": false
+    "value": "lavar louça",
+    "checked": true
   }
 ]
